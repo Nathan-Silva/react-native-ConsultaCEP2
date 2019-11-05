@@ -17,11 +17,13 @@ import { createStackNavigator } from "react-navigation-stack"
 
 import HomeScreen from './pages/Home';
 import PesquisaEnderecoScreen from './pages/PesquisaEndereco';
+import InformacoesScreen from './pages/Informacoes'
 
 const AppNavigator = createStackNavigator(
   {
     Home:  HomeScreen,
-    Pesquisa: PesquisaEnderecoScreen
+    Pesquisa: PesquisaEnderecoScreen,
+    Informacoes: InformacoesScreen
   },
   {
     headerMode: 'none',

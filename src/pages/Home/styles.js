@@ -22,7 +22,7 @@ export const styles = StyleSheet.create({
         paddingTop: 7
     },
 
-    botaoAlgumaCoisa: {
+    botaoInformacoes: {
         marginTop: 60,
         marginLeft: 55,
         backgroundColor:'#808000',

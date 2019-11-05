@@ -26,7 +26,7 @@ export default class Main extends Component{
                     <Text style={styles.textoBotoes}>Consultar CEP</Text>
                 </TouchableOpacity>
 
-                <TouchableOpacity style={styles.botaoAlgumaCoisa}>
+                <TouchableOpacity style={styles.botaoInformacoes} onPress={() => this.props.navigation.navigate('Informacoes')}>
                     <Text style={styles.textoBotoes}>Informações sobre o Aplicativo</Text>
                 </TouchableOpacity>
 
